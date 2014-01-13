@@ -19,6 +19,14 @@
 		841AE12618846C2200E366D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841AE10E18846C2100E366D2 /* UIKit.framework */; };
 		841AE12E18846C2200E366D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 841AE12C18846C2200E366D2 /* InfoPlist.strings */; };
 		841AE13018846C2200E366D2 /* memoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AE12F18846C2200E366D2 /* memoryTests.m */; };
+		841AE13C18846D8000E366D2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AE13A18846D8000E366D2 /* MainViewController.m */; };
+		841AE13D18846D8000E366D2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841AE13B18846D8000E366D2 /* MainViewController.xib */; };
+		841AE1461884817600E366D2 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AE1451884817600E366D2 /* Cell.m */; };
+		841AE14A188481E700E366D2 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841AE149188481E600E366D2 /* Cell.xib */; };
+		841AE14F1884941E00E366D2 /* white_wall_hash.png in Resources */ = {isa = PBXBuildFile; fileRef = 841AE14E1884941E00E366D2 /* white_wall_hash.png */; };
+		841AE153188496AE00E366D2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AE151188496AE00E366D2 /* DetailViewController.m */; };
+		841AE154188496AE00E366D2 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841AE152188496AE00E366D2 /* DetailViewController.xib */; };
+		841AE156188499B800E366D2 /* phone2-75.png in Resources */ = {isa = PBXBuildFile; fileRef = 841AE155188499B800E366D2 /* phone2-75.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,17 @@
 		841AE12B18846C2200E366D2 /* memoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "memoryTests-Info.plist"; sourceTree = "<group>"; };
 		841AE12D18846C2200E366D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		841AE12F18846C2200E366D2 /* memoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoryTests.m; sourceTree = "<group>"; };
+		841AE13918846D8000E366D2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		841AE13A18846D8000E366D2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		841AE13B18846D8000E366D2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		841AE1441884817600E366D2 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		841AE1451884817600E366D2 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		841AE149188481E600E366D2 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		841AE14E1884941E00E366D2 /* white_wall_hash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_wall_hash.png; sourceTree = "<group>"; };
+		841AE150188496AE00E366D2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		841AE151188496AE00E366D2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		841AE152188496AE00E366D2 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		841AE155188499B800E366D2 /* phone2-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone2-75.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +96,17 @@
 		841AE0FE18846C2000E366D2 = {
 			isa = PBXGroup;
 			children = (
+				841AE150188496AE00E366D2 /* DetailViewController.h */,
+				841AE151188496AE00E366D2 /* DetailViewController.m */,
+				841AE152188496AE00E366D2 /* DetailViewController.xib */,
+				841AE14E1884941E00E366D2 /* white_wall_hash.png */,
+				841AE155188499B800E366D2 /* phone2-75.png */,
+				841AE149188481E600E366D2 /* Cell.xib */,
+				841AE1441884817600E366D2 /* Cell.h */,
+				841AE1451884817600E366D2 /* Cell.m */,
+				841AE13918846D8000E366D2 /* MainViewController.h */,
+				841AE13A18846D8000E366D2 /* MainViewController.m */,
+				841AE13B18846D8000E366D2 /* MainViewController.xib */,
 				841AE11018846C2100E366D2 /* memory */,
 				841AE12918846C2200E366D2 /* memoryTests */,
 				841AE10918846C2100E366D2 /* Frameworks */,
@@ -219,8 +249,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841AE156188499B800E366D2 /* phone2-75.png in Resources */,
+				841AE14A188481E700E366D2 /* Cell.xib in Resources */,
+				841AE154188496AE00E366D2 /* DetailViewController.xib in Resources */,
 				841AE11518846C2100E366D2 /* InfoPlist.strings in Resources */,
+				841AE13D18846D8000E366D2 /* MainViewController.xib in Resources */,
 				841AE11D18846C2100E366D2 /* Images.xcassets in Resources */,
+				841AE14F1884941E00E366D2 /* white_wall_hash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841AE153188496AE00E366D2 /* DetailViewController.m in Sources */,
 				841AE11B18846C2100E366D2 /* AppDelegate.m in Sources */,
+				841AE1461884817600E366D2 /* Cell.m in Sources */,
+				841AE13C18846D8000E366D2 /* MainViewController.m in Sources */,
 				841AE11718846C2100E366D2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
