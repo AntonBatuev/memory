@@ -230,7 +230,6 @@
    //if (![ImageArray[indexPath.row] isEqualToString:@"nil"]) {
     cell.image.layer.cornerRadius =25;
     cell.image.clipsToBounds  = YES;
-
     cell.image.image = ImageArray[indexPath.row];
     //}
    

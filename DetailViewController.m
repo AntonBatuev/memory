@@ -50,6 +50,12 @@
 }
 - (IBAction)dialButton:(id)sender {
     NSString *phNo = phone;
+    
+    if ([phNo isEqualToString:@""]) {
+        UIAlertView* calert = [[UIAlertView alloc]initWithTitle:@"Отсутствует номер" message:@"" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+        [calert show];
+        return;
+    }
     NSURL *phoneUrl = [NSURL URLWithString:[NSString  stringWithFormat:@"telprompt:%@",phNo]];
     
     if ([[UIApplication sharedApplication] canOpenURL:phoneUrl]) {
